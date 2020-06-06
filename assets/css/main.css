@@ -11,6 +11,7 @@
     Code
     Tables
     Social media icons
+    Others
 */
 
 /*
@@ -82,7 +83,7 @@ hr {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 615px;
+  width: 80vw;
 }
 
 /*48em*/
@@ -504,4 +505,14 @@ th, td {
 
 .fa-rss-square:hover {
 	color: #ff6600;
+}
+
+/*
+  Others
+*/
+
+iframe {
+  width: 100%;
+  border: 0;
+  height: 400px;
 }
