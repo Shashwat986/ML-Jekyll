@@ -11,7 +11,7 @@
     Code
     Tables
     Social media icons
-    Others
+    Notebook
 */
 
 /*
@@ -83,7 +83,23 @@ hr {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 80vw;
+  width: 640px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 940px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
 }
 
 /*48em*/
@@ -508,10 +524,27 @@ th, td {
 }
 
 /*
-  Others
+  Notebook
 */
 
-iframe {
+.notebook {
+  /* width: 120%;
+  margin-left: -10%; */
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.notebook .notebook-header {
+  font-size: 0.8em;
+  padding: 5px 15px;
+  background-color: #eeeeee;
+  color: black;
+  font-family: monospace;
+  border-bottom: 1px solid #bbb;
+}
+
+.notebook iframe {
   width: 100%;
   border: 0;
   height: 400px;

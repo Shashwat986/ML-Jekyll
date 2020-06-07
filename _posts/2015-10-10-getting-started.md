@@ -19,7 +19,7 @@ Lagrange is a minimalist Jekyll theme for running a personal blog or site for fr
 
 * Support for Jekyll's built-in Sass/SCSS preprocessor and data files for making customizing easier.
 
-<iframe src="/notebooks/01_SVM.html"></iframe>
+{% include notebook.html name="01_SVM" %}
 
 * [Google Analytics](https://www.google.com/analytics/) support.
 
